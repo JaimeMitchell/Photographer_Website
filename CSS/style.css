@@ -1,9 +1,19 @@
-header
-navigation
-footer
-centerTop
-centerBottom
-leftTop
-lightTop
-leftBottom
-rightBottom
+body {
+    box-sizing: border-box;
+    font-family: Arial;
+    background-image: url('https://live.staticflickr.com/65535/51980773298_984da77e00_k.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-position: center;
+}
+header{:;}
+nav{:;}
+footer{:;}
+.centerTop{:;}
+.centerBottom{:;}
+.leftTop{:;}
+.lightTop{:;}
+.leftBottom{:;}
+.rightBottom{:;}

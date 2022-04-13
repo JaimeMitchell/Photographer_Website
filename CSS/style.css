@@ -1,7 +1,7 @@
 body {
 
-    background-image: url("../Multimedia/Sketch2020_-4.jpg");
-    background-color: rgb(2, 62, 57);
+    background-image: url("./Multimedia/MyLogoThumbnail.jpg");
+    background-color: rgb(222, 236, 235);
     background-repeat: no-repeat;
     background-size: 79%;
     background-attachment: fixed;
@@ -9,22 +9,17 @@ body {
     background-position: center;
 }
 
-header, h1{
-display: inline;
-margin: auto;
-position: relative;
-top:auto;
-left: auto;
+header,
+h1 {
+    display: inline;
+    margin: auto;
 }
 
-/* h1 {
+li,
+header {
+    display: inline;
 
-    background-color: rgb(130, 36, 88);
-    color: rgb(191, 246, 186);
-    text-align: center;
-   
-    width: 300px;
-} */
+}
 
 ul {
     list-style: none;
@@ -36,34 +31,9 @@ nav a {
     color: antiquewhite;
 }
 
-/* 
-footer {
-    : ;
+
 }
 
-.centerTop {
-    : ;
-}
-
-.centerBottom {
-    : ;
-}
-
-.leftTop {
-    : ;
-}
-
-.lightTop {
-    : ;
-}
-
-.leftBottom {
-    : ;
-}
-
-.rightBottom {
-    : ;
-} */
 .myDivElement {
     text-align: center;
 }
@@ -73,8 +43,6 @@ footer {
 
 }
 
-li,
-header {
-    display: inline;
-
+footer {
+    background-image: url("#");
 }

@@ -1,31 +1,42 @@
 body {
-    box-sizing: border-box;
-    background-image: url("../Multimedia/CrowPhotoCollage.jpg");
+
+    background-image: url("../Multimedia/Sketch2020_-4.jpg");
     background-color: rgb(2, 62, 57);
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 79%;
     background-attachment: fixed;
     background-origin: content-box;
     background-position: center;
 }
 
-header {
-    : ;
+header, h1{
+display: inline;
+margin: auto;
+position: relative;
+top:auto;
+left: auto;
 }
 
-nav a {
-    text-decoration: none;
-}
+/* h1 {
+
+    background-color: rgb(130, 36, 88);
+    color: rgb(191, 246, 186);
+    text-align: center;
+   
+    width: 300px;
+} */
 
 ul {
     list-style: none;
 }
 
-h1 {
-    background-color: aquamarine;
-    color: beige;
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: antiquewhite;
 }
 
+/* 
 footer {
     : ;
 }
@@ -52,4 +63,18 @@ footer {
 
 .rightBottom {
     : ;
+} */
+.myDivElement {
+    text-align: center;
+}
+
+.myDivElement ul li {
+    display: inline;
+
+}
+
+li,
+header {
+    display: inline;
+
 }

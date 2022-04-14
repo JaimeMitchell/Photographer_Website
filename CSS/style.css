@@ -1,8 +1,8 @@
-body {
+.index {
     background-image: url('/Multimedia/breakDance.jpg');
     background-color: hsl(0, 0%, 0%);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
     background-attachment: fixed;
     background-origin: content-box;
     background-position: center;
@@ -10,9 +10,7 @@ body {
 
 
 
-header,
-ul,
-li {
+.index_header_ul_li {
     width: 800px;
     display: block;
     box-sizing: border-box;
@@ -20,6 +18,18 @@ li {
     background-color: rgba(3, 91, 169, 0.643);
     text-align: center;
     color: rgb(244, 190, 190);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact_header_ul_li,
+l {
+    width: 800px;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(0, 5, 9);
+    text-align: center;
+    color: rgb(243, 245, 248);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -42,6 +52,7 @@ nav a {
     color: rgb(255, 253, 253);
     padding: 10px;
 }
+
 .logo {
     position: fixed;
 
@@ -56,12 +67,28 @@ nav a {
 
 }
 
-footer {
+.footerIndex {
     position: fixed;
-    left: 0;
+    display: block;
+    left: 20%;
+    right: 20%;
     bottom: 10px;
-    width: 100%;
-    background-color: rgba(71, 96, 207, 0.21);
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerContact {
+    position: fixed;
+    display: block;
+    left: 20%;
+    right: 20%;
+    bottom: 10px;
+    width: 50%;
+    background-color: rgb(8, 8, 8);
     color: white;
     text-align: center;
     background-position: center;
@@ -69,62 +96,61 @@ footer {
 }
 
 
-*{box-sizing: border-box;
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    margin: 0;
-    font-family: Arial;
+* {
+    box-sizing: border-box;
 }
 
-/* The grid: Four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-}
+.bg-img {
+    background-image: url("/Multimedia/MyLogoThumbnail.jpg");
 
-/* Style the images inside the grid */
-.column img {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-.column img:hover {
-    opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* The expanding image container */
-.container {
+    min-height: 500px;
+color:#f1f1f1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     position: relative;
-    display: none;
 }
 
-/* Expanding image text */
-#imgtext {
+.container {
     position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color:rgb(0, 5, 9);
 }
 
-/* Closable button inside the expanded image */
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.btn {
+    background-color: rgb(41, 47, 52);
     color: white;
-    font-size: 35px;
+    padding: 16px 20px;
+    border: none;
     cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
-</style>
+.btn:hover {
+    opacity: 1;
 }

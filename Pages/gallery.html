@@ -8,7 +8,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="css/style.css" rel="stylesheet">
 </head>
+<header>
+    <h1>Content-Creation Photography</h1>
+</header>
 
+<nav>
+    <ul>
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+
+        <li>
+            <a href="./Pages/about.html">About</a>
+        </li>
+
+        <li>
+            <a href="./Pages/gallery.html">Gallery</a>
+        </li>
+
+        <li>
+            <a href="./Pages/contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<br>
+<main>
+    <footer>
+Jaime Mitchell &copy All Rights Reserved          </footer>
+
+
+</main>
 <body>
     <nav>
         <ul>
@@ -26,60 +56,27 @@
             </li>
         </ul>
     </nav>
-    <header>
-        <h1>Jaime Mitchell Photographer</h1>
-    </header>
 
-    <img src="./" />
-    <br>
-    <main>
-        <div class="navigation">
-            <nav>
 
-            </nav>
+    <h2>Form on Hero Image</h2>
+    <div class="bg-img">
+      <form action="/action_page.php" class="container">
+        <h1>Login</h1>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+    
+    <p>This example creates a form on a responsive image. Try to resize the browser window to see how it always will cover the whole width of the screen, and that it scales nicely on all screen sizes.</p>
+    
 
-        </div>
-
-        <div class="centerTop">
-            <a href="./Multimedia/CrowPhotoCollage.jpg">
-                <div style="text-align:center">
-                    <h2>Tabbed Image Gallery</h2>
-                    <p>Click on the images below:</p>
-                  </div>
-                  
-                  <!-- The four columns -->
-                  <div class="row">
-                    <div class="column">
-                      <img src="img_nature.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                    <div class="column">
-                      <img src="img_snow.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                    <div class="column">
-                      <img src="img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                    <div class="column">
-                      <img src="img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
-                    </div>
-                  </div>
-                  
-                  <div class="container">
-                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-                    <img id="expandedImg" style="width:100%">
-                    <div id="imgtext"></div>
-                  </div>
-                  
-                  <script>
-                  function myFunction(imgs) {
-                    var expandImg = document.getElementById("expandedImg");
-                    var imgText = document.getElementById("imgtext");
-                    expandImg.src = imgs.src;
-                    imgText.innerHTML = imgs.alt;
-                    expandImg.parentElement.style.display = "block";
-                  }
-                  </script>
-                  
-    </main>
+        </main>
 </body>
 
 </html>

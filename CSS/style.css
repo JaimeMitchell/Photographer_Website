@@ -1,5 +1,5 @@
 .bodyIndex {
-    background-image: url('/Multimedia/breakDance.jpg');
+    background-image: url("/Multimedia/breakDance.jpg");
     background-color: hsl(0, 0%, 0%);
     background-repeat: no-repeat;
     background-size: 80%;
@@ -10,7 +10,7 @@
 
 .bodyGallery {
    
-    background-image: url('https://live.staticflickr.com/65535/51692032159_66d5036006_c.jpg');
+    background-image: url("https://live.staticflickr.com/65535/51692032159_66d5036006_c.jpg");
     background-repeat: no-repeat;
     background-size: 100%; 
     background-origin: content-box;
@@ -89,7 +89,7 @@ table {
 tr {
     width: 310px;
     border: solid rgb(216, 213, 218);
-    background-color: rgba(239, 248, 248, 0.626);
+    background-color: rgba(239, 248, 248, 0.784);
     color: rgb(17, 4, 4);
     font-size: 14pt;
     margin: auto;

@@ -72,9 +72,9 @@ nav a {
     display: block;
     left: 20%;
     right: 20%;
-    bottom: 10px;
+    bottom: 5px;
     width: 50%;
-    background-color: black;
+    background-color:rgba(3, 92, 169, 0.271);
     color: white;
     text-align: center;
     background-position: center;
@@ -84,8 +84,6 @@ nav a {
 .footerContact {
     position: fixed;
     display: block;
-    left: 20%;
-    right: 20%;
     bottom: 10px;
     width: 50%;
     background-color: rgb(8, 8, 8);

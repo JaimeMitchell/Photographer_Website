@@ -1,22 +1,33 @@
 body {
-
-    background-image: url("./Multimedia/MyLogoThumbnail.jpg");
-    background-color: rgb(222, 236, 235);
+    background-image: url('/Multimedia/breakDance.jpg');
+    background-color: hsl(0, 0%, 0%);
     background-repeat: no-repeat;
-    background-size: 79%;
+    background-size: 100%;
     background-attachment: fixed;
     background-origin: content-box;
     background-position: center;
 }
 
+
+
 header,
-h1 {
-    display: inline;
+ul,
+li {
+    width: 800px;
+    display: block;
+    box-sizing: border-box;
     margin: auto;
+    background-color: rgba(3, 91, 169, 0.643);
+    text-align: center;
+    color: rgb(244, 190, 190);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li,
-header {
+h4 {
+    color: antiquewhite;
+}
+
+li {
     display: inline;
 
 }
@@ -28,21 +39,92 @@ ul {
 nav a {
     text-decoration: none;
     text-align: center;
-    color: antiquewhite;
+    color: rgb(255, 253, 253);
+    padding: 10px;
 }
+.logo {
+    position: fixed;
 
-
-}
-
-.myDivElement {
+    left: 50;
+    bottom: 10px;
+    width: 5%;
+    background-color: red;
+    color: white;
     text-align: center;
-}
-
-.myDivElement ul li {
-    display: inline;
+    background-position: center;
+    z-index: 2;
 
 }
 
 footer {
-    background-image: url("#");
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    background-color: rgba(71, 96, 207, 0.21);
+    color: white;
+    text-align: center;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+*{box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+</style>
 }

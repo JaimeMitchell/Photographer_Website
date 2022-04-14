@@ -12,8 +12,7 @@
    
     background-image: url('https://live.staticflickr.com/65535/51692032159_66d5036006_c.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: 
+    background-size: 100%; 
     background-origin: content-box;
     background-position: center;
 }
@@ -119,7 +118,6 @@ th {
 
 .logo {
     position: fixed;
-
     left: 50;
     bottom: 10px;
     width: 5%;

@@ -53,6 +53,60 @@ nav a {
     padding: 10px;
 }
 
+
+h2.tableTitle {
+    position: absolute;
+    margin: 100px, 50px, 10px, 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(50, 125, 205);
+    text-decoration: none;
+    font-family: helvetica;
+    letter-spacing: 1pt;
+    text-align: center;
+}
+
+table{
+    
+    margin:auto;
+    width: 100%;
+    height: 40%;
+    border: solid rgb(28, 47, 68) 5px;
+    border-radius: 1em;
+    color: rgb(13, 9, 9);
+    font-size: 14pt;
+}
+
+tr {
+    width: 310px;
+    border: solid rgba(32, 13, 42, 0.796);
+    background-color: rgba(27, 157, 159, 0.225);
+    color: rgb(17, 4, 4);
+    font-size: 14pt;
+    margin: auto;
+    overflow: auto;
+    border-radius: 1em;
+    text-align: center;
+}
+
+
+
+th {
+    width: 310px;
+    border: solid rgba(102, 53, 128, 0.833) 5px;
+    background-color: rgba(14, 17, 17, 0.984);
+    color: rgb(254, 202, 202);
+    font-size: 14pt;
+    padding: 15px;
+    margin: auto;
+    overflow: auto;
+    border-radius: 1em;
+    text-align: center;
+    
+}
+
+
 .logo {
     position: fixed;
 
@@ -74,7 +128,7 @@ nav a {
     right: 20%;
     bottom: 5px;
     width: 50%;
-    background-color:rgba(3, 92, 169, 0.271);
+    background-color: rgba(3, 92, 169, 0.271);
     color: white;
     text-align: center;
     background-position: center;
@@ -108,7 +162,7 @@ html {
     background-image: url("/Multimedia/MyLogoThumbnail.jpg");
 
     min-height: 500px;
-color:#f1f1f1;
+    color: #f1f1f1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -121,7 +175,7 @@ color:#f1f1f1;
     margin: 20px;
     max-width: 300px;
     padding: 16px;
-    background-color:rgb(0, 5, 9);
+    background-color: rgb(0, 5, 9);
 }
 
 input[type=text],

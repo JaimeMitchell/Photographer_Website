@@ -29,8 +29,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.contact_header_ul_li,
-l {
+.contact_header_ul_li {
     width: 800px;
     display: block;
     box-sizing: border-box;

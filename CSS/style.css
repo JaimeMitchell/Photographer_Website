@@ -1,21 +1,46 @@
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+    /* set background image per page */
+    .home-bg {
+    background: url(/Multimedia/breakDance.jpg) no-repeat center center fixed;
+    }
+    .about-bg {
+    background: url("/Multimedia/breakDance.jpg") no-repeat center center fixed;
+    }
+    .contact-bg {
+    background: url(https://lightroom.adobe.com/shares/3d6d582f399b4dfb9876c66d65228439/albums/db780e7cf63644e0a1d49e8d89a726ab/assets/3c5e068e0ff64815abd35f95a1a3b8f8) no-repeat center center fixed;
+    }
 .bodyIndex {
-    background-image: url("/Multimedia/breakDance.jpg");
+    background-image: url(/Multimedia/breakDance.jpg);
     background-color: hsl(0, 0%, 0%);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: cover;
     background-attachment: fixed;
     background-origin: content-box;
     background-position: center;
 }
 
-.bodyGallery {
+.bodyAbout {
    
-    background-image: url("https://live.staticflickr.com/65535/51692032159_66d5036006_c.jpg");
+    background-image: url(https://live.staticflickr.com/65535/51692032159_66d5036006_c.jpg);
     background-repeat: no-repeat;
-    background-size: 100%; 
+    background-size: cover; 
+    background-attachment: fixed;
     background-origin: content-box;
     background-position: center;
 }
+.bodyGallery{ background-image: url(https://lightroom.adobe.com/shares/d8dec4355eae426fa672850427e48515);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-position: center;}
 
 .index_header_ul_li {
     width: 800px;

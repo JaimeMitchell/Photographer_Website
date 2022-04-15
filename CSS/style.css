@@ -40,6 +40,16 @@
     background-origin: content-box;
     background-position: center;}
 
+.bodyContact{
+    background-image: url("/Multimedia/MyLogoThumbnail.jpg");
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-position: center;
+}
+
 .index_header_ul_li {
     width: 800px;
     display: block;
@@ -187,8 +197,6 @@ th {
 }
 
 .bg-img {
-    background-image: url("/Multimedia/MyLogoThumbnail.jpg");
-    min-height: 800px;
     color: #f1f1f1;
     background-position: center;
     background-repeat: no-repeat;

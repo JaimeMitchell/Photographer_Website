@@ -37,7 +37,7 @@ html {
 .bodyGallery{ background-image: url(https://lightroom.adobe.com/shares/d8dec4355eae426fa672850427e48515);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-attachment: fixed;
     background-origin: content-box;
     background-position: center;}
@@ -190,8 +190,7 @@ th {
 
 .bg-img {
     background-image: url("/Multimedia/MyLogoThumbnail.jpg");
-
-    min-height: 500px;
+    min-height: 800px;
     color: #f1f1f1;
     background-position: center;
     background-repeat: no-repeat;

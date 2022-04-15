@@ -14,7 +14,7 @@
     background: url(https://lightroom.adobe.com/shares/3d6d582f399b4dfb9876c66d65228439/albums/db780e7cf63644e0a1d49e8d89a726ab/assets/3c5e068e0ff64815abd35f95a1a3b8f8) no-repeat center center fixed;
     } */
 .bodyIndex {
-    background-image: url(/Multimedia/breakDance.jpg);
+    background-image: url(../Multimedia/breakDance.jpg);
     background-color: hsl(0, 0%, 0%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@
     background-position: center;}
 
 .bodyContact{
-    background-image: url("/Multimedia/MyLogoThumbnail.jpg");
+    background-image: url("../Multimedia/MyLogoThumbnail.jpg");
     min-height: 800px;
     background-repeat: no-repeat;
     background-size: cover; 

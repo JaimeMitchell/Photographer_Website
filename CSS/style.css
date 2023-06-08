@@ -74,6 +74,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.contact_links{
+flex-direction:column;
+}
+
 h4 {
     color: antiquewhite;
 }
